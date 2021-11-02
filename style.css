@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.container .bg-img{
+    background-image: url('bgimg2.jpg');
+    height: 100vh;
+    filter: blur(1px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    position: absolute;
+    top: 34px;
+    left: 34%;
+   
+}
+.nav a{
+    position: relative;
+    margin: 34px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+.nav a:hover{
+    color: rgb(88, 84, 84);
+}
+.logo{
+    position: absolute;
+    top: 24px;
+    left: 34px;
+    font-size: xx-large;
+    color: white;
+    /* font-weight: bold; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.logo span{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    border-radius: 5px;
+}
+.button{
+    position: absolute;
+    top: 30px;
+    right: 74px;
+    
+}
+.button button{
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    width: 250px;
+    /* height: 34px; */
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button button:hover{
+    border: 2px solid white;
+    color: white;
+    background: none;
+    transform: translate(1s)
+}
+.container .text {
+    position: absolute;
+    top: 34vh ;
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-size: 3rem;
+    margin: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+}
+.buttons{
+    position: absolute;
+    top: 65vh;
+    display: flex;
+    left: 78vh;
+    /* justify-content: space-between; */
+}
+ .button1 button{
+    background: none;
+    padding: 15px;
+    /* margin: 34px; */
+    border: 2px solid white;
+    width: 200px;
+    color: white;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2 button{
+    border: none;
+    padding: 15px;
+    background: none;
+    color: white;
+    width: 200px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .bg-img2{
+    color: white;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img2 video{
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+}
+.bg-img2 h1{
+    position: absolute;
+    top: 150vh;
+    left: 35vh;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+}
+.bg-img2 h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear  forwards ;
+}
+@keyframes animate
+{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+        
+    }
+}
+.bg-img2 h1 span:nth-child(1)
+{
+    animation-delay:1s;
+}
+.bg-img2 h1 span:nth-child(2)
+{
+    animation-delay:2s;
+}
+.bg-img2 h1 span:nth-child(3)
+{
+    animation-delay:2.5s;
+}
+.bg-img2 h1 span:nth-child(4)
+{
+    animation-delay:3s;
+}
+.bg-img2 h1 span:nth-child(5)
+{
+    animation-delay:3.5s;
+}
+.bg-img2 h1 span:nth-child(6)
+{
+    animation-delay:3.75s;
+}
+.bg-img2 h1 span:nth-child(7)
+{
+    animation-delay:4s;
+}
+.bg-img2 h1 span:nth-child(8)
+{
+    animation-delay:4.5s;
+}
+.bg-img2 h1 span:nth-child(9)
+{
+    animation-delay:4.75s;
+}
+.bg-img2 h1 span:nth-child(10)
+{
+    animation-delay:10s;
+}
+/* u */
+.bg-img2 h1 span:nth-child(11)
+{
+    animation-delay:3s;
+}
+.bg-img2 h1 span:nth-child(12)
+{
+    animation-delay:3s;
+}
+.bg-img2 p{
+    position: absolute;
+    top: 170vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+}
+.bg-img2 button{
+    position: absolute;
+    top: 185vh;
+    left: 94vh;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.bg-img2 button:hover{
+    background: white;
+    color: black;
+}
+.bgimg3{
+    background: url('bgimg3.jpg');
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+}
+.container1 {
+    position: absolute;
+    top: 250vh;
+    left: 34vh;
+}
+.container1 h1{
+    position: relative;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 34px;
+    text-shadow: 1px 1px 11px red, 0 0 2em rgb(110, 3, 3), 0 0 0.2em rgb(110, 3, 3);
+}
+.container1 form{
+    position: relative;
+    left: 15vh;
+}
+.container1 form input{
+    position: relative;
+    padding: 1px;
+    margin: 14px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black ;
+    color: white;
+    text-shadow: 1px 1px 11px red, 0 0 2em rgb(110, 3, 3), 0 0 0.2em rgb(110, 3, 3);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    font-size: 1rem;
+}
+.container1 form input:hover{
+    border-bottom: 2px solid white;
+}
+
+
+.container1 button{
+    position: relative;
+    margin: 34px;
+    left: 15vh;
+    padding: 15px;
+    border: 2px solid white;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900 !important;
+    cursor: pointer;
+}
+.container1 button:hover{
+    background: none;
+    box-shadow: 2px 2px 20px 2px red ;
+    text-shadow:1px 1px 11px red, 0 0 2em rgb(110, 3, 3), 0 0 0.2em rgb(110, 3, 3) ;
+}
+.container1 .social{
+    position: absolute;
+    top: 90vh;
+    filter: invert(100%);
+    display: flex;
+    justify-content: left;
+    left: -175px;
+}
+.container1 .social a{
+    position: relative;
+    /* margin: 20px; */
+    padding: 15px;
+    margin: 5px;
+}
+
+.container1 .social a .git{
+    position: relative;
+    width: 60px;
+    top: -1vh;
+    margin: 0px;
+}

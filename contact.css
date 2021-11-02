@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    background-color: #0a071b;
+    height: 55rem;
+}
+.example::-webkit-scrollbar {
+    display: none;
+  }
+.logo{
+    position: relative;
+    top: 34px;
+    color: white;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+.logo span{
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+.nav{
+    position: relative;
+    left: 35%;
+    top: 14px;
+}
+.nav a{
+    position: relative;
+    margin: 34px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover{
+    color: rgb(80, 80, 80);
+}
+.button{
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    padding: 15px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: none;
+    color: white;
+}
+.text{
+    position: relative;
+    top: 6rem;
+    height: 100vh;
+    width: 55rem;
+    left: 14rem;
+    /* border: 2px solid white; */
+}
+.text h3{
+    color: rgb(80, 80, 80);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.text h1{
+    position: relative;
+    margin: 34px;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family:  'Montserrat', sans-serif;
+    z-index: 1;
+}
+.text .box{
+    position: relative;
+    height: 100vh;
+    width: 55rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px black;
+}
+.text .backimage{
+    position: absolute;
+    left: 8%;
+    z-index: 0;
+}
+
+.box h2{
+    position: relative;
+    top: 33px;
+    left: 34px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.contact{
+    position: relative;
+    top: 6rem;
+    left: 10%;
+    line-height: 40px;
+    
+    
+}
+.contact .contact-cell span{
+    position: relative;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.contact .contact-cell input{
+    position: relative;
+    padding: 15px;
+    width: 300px;
+    font-family:  'Montserrat', sans-serif;
+    border: 1px solid rgb(141, 138, 138);
+    border-radius: 5px;
+}
+.contact .contact-cell input:hover{
+    border: 1px solid #0a071b;
+}
+.contact button{
+    position: relative;
+    padding: 15px;
+    width: 200px;
+    margin: 34px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #0a071b;
+    border: 2px solid #0a071b;
+    border-radius: 5px;
+    color: white;
+    left: 25%;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: white;
+    color: #0a071b;
+    border: 2px solid #0a071b;
+}
+.message{
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    font-family:'Montserrat', sans-serif ;
+    margin: 15px;
+}
+.message textarea{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgb(151, 151, 151);
+    
+}
+.message:hover{
+    border: 1px soild #000000;
+}
+.bottom{
+    position: relative;
+    /* border: 2px solid red; */
+    top: 15rem;
+    background-color: #0a071b;
+    padding: 15px;
+}
+.bottom a{
+    position: relative;
+    margin: 24px;
+    filter: invert(100%);
+}
+.bottom a .git{
+    position: relative;
+    top: 10px;
+    left: -1%;
+    width: 60px;
+}

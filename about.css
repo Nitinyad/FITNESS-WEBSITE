@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+}
+.container video{
+    position: relative;
+    height: 100vh;
+    width: 100vh ;
+    background-size: cover;
+    object-fit: cover;
+    filter: blur(3px);
+}
+.logo{
+    position: absolute;
+    color: white;
+    top: 34px ;
+    left: 34px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.logo span{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .nav{
+    position: absolute;
+    top: 34px;
+    left: 34%;
+}
+.container .nav a{
+    position: relative;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family:'Montserrat', sans-serif ;
+    margin: 34px;
+}
+.container .nav a:hover{
+    color: rgb(110, 109, 109);
+}
+.button{
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    width: 250px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.button:hover{
+    background: none;
+    color: white;
+}
+.text{
+    position: absolute;
+    top: 30vh;
+    left: 60%;
+    /* border: 2px solid white ; */
+    width: 70vh;
+    height: 70vh;
+    color: white;
+}
+.text h1{
+    position: relative;
+    font-size: 4rem;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.text h1 span{
+    color:rgb(119, 0, 0) ;
+}
+.text h3{
+    position: relative;
+    font-size: 2rem;
+    margin: 14px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.text p{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.text2{
+    position: relative;
+    background-color: black;
+    height: 100vh;
+}
+.text2 .bgimg4{
+    position: absolute;
+    background: url('bgimg4.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 450px;
+    right: 150px;
+    /* filter: blur(2px); */
+    /* filter: invert(100%); */
+}
+.text2 .coach{
+    position: absolute;
+    color: white;
+    /* border: 2px solid white; */
+    top: 25vh;
+    left: 10%;
+    width: 70vh;
+    height: 70vh;
+}
+.text2 .coach h1{
+    position: relative;
+    font-size: 4rem;
+    font-family:  'Montserrat', sans-serif;
+}
+.text2 .coach h1 span{
+    color: rgb(119, 0, 0);
+}
+.text2 .coach h3{
+    position: relative;
+    font-size: 2rem;
+    font-family:  'Montserrat', sans-serif;
+    margin: 14px;
+}
+.text2 .coach p{
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 400;
+}
+.text2 .coach button{
+    position: relative;
+    margin: 34px;
+    width:250px;
+    padding: 15px;
+    font-family:  'Montserrat', sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.text2 .coach button:hover{
+    background: none;
+    color: white;
+    /* box-shadow: 2px 2px 20px 2px red; */
+}
+.bgimg5{
+    position: relative;
+    background: url('bgimg5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container .social{
+    position: relative;
+    filter: invert(100%);
+}
+.container .social a{
+    position: relative;
+    margin: 24px;
+}
+.container .social a .git{
+    position: relative;
+    top: 2vh;
+    left: 0vh;
+    width: 60px;
+}
